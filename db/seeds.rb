@@ -1,6 +1,8 @@
 Product.delete_all
 
 
+image_url = "http://dummyimage.com/180x180/000/00ffd5.png"
+
 Product.create!(title: 'Seven Mobile Apps in Seven Weeks',
   description:
     %{<p>
@@ -11,8 +13,22 @@ Product.create!(title: 'Seven Mobile Apps in Seven Weeks',
       experienced developer needing to expand your options. Plus, you’ll find
       out which cross-platform solution makes the most sense for your needs.
       </p>},
-  image_url: '',
+  image_url: image_url,
 price: 26.00)
 
 
-puts "1 products have been created"
+5.times do
+  title = Faker::Book.title
+  description = Faker::Lorem.paragraph
+  Product.create!(title: title,
+    description:
+      %{<p>
+        <em>#{title}</em>
+          #{description}
+        </p>},
+    image_url: image_url,
+    price: rand(100).to_f.round(1))
+
+end
+
+puts "6 products have been created"
