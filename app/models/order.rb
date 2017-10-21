@@ -3,7 +3,7 @@ class Order < ApplicationRecord
 
     enum pay_type: {
         "Check" => 0,
-        "Create card" => 1,
+        "Credit card" => 1,
         "Purchase order" => 2
     }
 
