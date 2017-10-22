@@ -21,7 +21,7 @@ gem 'faker'
 
 
 gem 'webpacker', '~> 3.0'
-
+gem 'activemodel-serializers-xml'
 
 group :development, :test do
 
