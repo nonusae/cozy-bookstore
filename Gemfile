@@ -22,6 +22,8 @@ gem 'faker'
 
 gem 'webpacker', '~> 3.0'
 gem 'activemodel-serializers-xml'
+gem 'bcrypt', '~> 3.1.7'
+
 
 group :development, :test do
 

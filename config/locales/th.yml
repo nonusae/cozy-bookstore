@@ -1,0 +1,8 @@
+th:
+  layouts:
+    application:
+      title: "ชั้นหนังสืของคุณ"
+      home: "หน้าหลัก"
+      questions: "คำถาม"
+      news: "ข่าวสาร"
+      contact: "ติดต่อเรา"
