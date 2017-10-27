@@ -1,24 +1,8 @@
-# README
+A standard store( book store ) application. Implement using Ruby on rails 5.1 integrated with reactjs
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+__Feature:__
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Rails 5 application
+- Ajaxify Shopping cart
+- Basic ReactJs integration for dynamic form generator
+- Rails's Action cable for real time product price boardcast
